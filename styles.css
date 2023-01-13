@@ -1,0 +1,28 @@
+h1 {
+	animation: color-change 1s infinite;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  25% { color: black; }
+  50% { color: green; }
+  75% { color: yellow; }
+  80% { color: Ff06b5; }
+  100% { color: red; }
+}
+
+@keyframes color-change2 {
+  0% { color: red; }
+  50% { color: blue; }
+}
+
+p {
+	color:red;
+	animation: color-change2 0.1s infinite;
+}
+
+body {
+	background-color: blue;
+}
